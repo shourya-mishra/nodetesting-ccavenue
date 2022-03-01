@@ -5,7 +5,7 @@
   "main": "ccavRequestHandler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app" : "node run_node.js"
+    "start" : "node app.js"
   },
   "author": "",
   "license": "ISC",
