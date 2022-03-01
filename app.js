@@ -11,6 +11,10 @@ app.use(express.static('public'));
 app.set('views', __dirname + '/public');
 app.engine('html', require('ejs').renderFile);
 
+app.get('/', (req,res)=>{
+    res.send('Working fine.')
+})
+
 
 app.get('/about', function (req, res){
     	res.render('dataFrom.html');
@@ -25,4 +29,4 @@ app.post('/ccavResponseHandler', function (request, response){
         ccavResHandler.postRes(request, response);
 });
 
-app.listen(3001);
+app.listen(3001, ()=>{console.log('listening to 3001');});
