@@ -29,4 +29,4 @@ app.post('/ccavResponseHandler', function (request, response){
         ccavResHandler.postRes(request, response);
 });
 
-app.listen(3001, ()=>{console.log('listening to 3001');});
+app.listen(3001||process.env.PORT, ()=>{console.log('listening to ',process.env.PORT);});
