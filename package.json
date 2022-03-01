@@ -4,7 +4,8 @@
   "description": "",
   "main": "ccavRequestHandler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app" : "node run_node.js"
   },
   "author": "",
   "license": "ISC",
