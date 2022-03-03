@@ -16,6 +16,7 @@ const https = require("https");
 var fs = require("fs");
 
 
+
 ccav = require('./ccavutil.js'),
 
 ccavReqHandler = require('./ccavRequestHandler.js'),
@@ -55,6 +56,7 @@ app.all("/*", function (req, res, next) {
   next();
 });
 app.use(enableCORS);
+app.use(cors())
 
 app.use(bodyParser.json({ limit: "500mb" }));
 app.use(
