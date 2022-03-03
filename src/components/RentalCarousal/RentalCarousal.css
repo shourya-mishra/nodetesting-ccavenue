@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.rental_wrapper{
+    margin-top: 2%;
+ min-height: 45vh;
+ margin-bottom: 0%;
+}
+
+.rental_imgWrapper{
+    width: 94vw;
+    margin-top: 0.5%;
+    margin-left: 2vw;
+    min-height: 30vh;
+    display: flex;
+    cursor: pointer;
+}
+
+.rental_img{
+    border-radius: 20px !important;
+    height: 46vh;
+    width: 100%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+.rental_wrapper .carousel-slider .control-dots{
+    margin-bottom: -18vh;
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+
+    .rental_imgWrapper{
+        margin-left: 3vw !important;
+      }
+  
+
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .rental_wrapper{
+        margin-top: 2%;
+     min-height: 30vh;
+     margin-bottom: 0%;
+    }
+    
+    .rental_imgWrapper{
+        width: 94vw;
+        margin-top: 0.5%;
+        margin-left: 2vw;
+        min-height: 25vh;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    
+    .rental_wrapper .carousel-slider .control-dots{
+        margin-bottom: -16vh;
+    }
+    
+    .rental_img{
+        border-radius: 20px !important;
+        height: 26vh;
+        /* width: 100%; */
+        margin-left: 0%;
+        object-fit: cover;
+    }
+    
+
+    .rental_imgWrapper {
+        margin-left: 3vw;
+      }
+
+
+}

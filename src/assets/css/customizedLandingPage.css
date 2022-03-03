@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.clp_wrapper{
+
+}
+
+.clp_banner {
+    width: 89vw;
+    margin: 5vh auto 5vh 3vw;
+    cursor: pointer;  
+}  
+.cust_heading
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 3.5vw;
+line-height: 1.2;
+
+color: #000000;
+}
+.productReview_Col
+{
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1.5vw;
+    /* margin-bottom: 2vw; */
+    margin: 0;
+    padding-top: 0;
+    height: fit-content;
+    width: 20%;
+    border-right: 0.5px solid #C8C8C8;
+    margin-top: -5%;
+
+}
+.productReview_Col_noBorder
+{
+    width: 20%;
+
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1.5vw;
+    /* margin-bottom: 2vw; */
+    margin: 0;
+    height: fit-content;
+    padding-top: 0;
+    margin-top: -5%;
+    /* border-right: 0.5px solid #C8C8C8; */
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.col
+{
+    padding: 0;
+    margin: 0;
+}
+.cust_banner2_img
+{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+.cust_leftBanner
+{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.cust_clickBtn
+{
+    background-color: #575757;
+    border-radius: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+.cust_clickBtnText
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 0;
+/* or 362% */
+text-align: center;
+color: #FFFFFF !important;
+
+}
+.custFaqLeftAlign
+{
+    align-items: flex-start !important;
+    justify-content: left !important;
+    text-align: left !important;
+    display: flex;
+}
+p.products_text{
+    text-align: left;
+    margin-left: 5%;
+}
+.cust_acc_faq
+{
+    margin: 4vw;
+    margin-top: 2vh;
+}
+.cust_rightBanner
+{
+    display: flex;
+    flex-direction: column;
+    float: center;
+    /* text-align: center; */
+    justify-content: left!important;
+    align-items: flex-start!important;
+    padding-top: 15vh;
+    padding-left: 10vw;
+}
+.cust_banner2
+{
+    text-align: left;
+    background-image: url("../img/customizedLandingPage/banner2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+    /* text-align: center; */
+    height: 60vh;
+    width: 95.5%;
+    margin-bottom: 2.5%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+.productReview_Col_bothBorder
+{
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1.5vw;
+    /* margin-bottom: 2vw; */
+    padding-top: 0;
+    margin: 0;
+    height: fit-content;
+    width: 20%;
+    margin-top: -5%;
+    border-right: 0.5px solid #C8C8C8;
+    border-left: 0.5px solid #C8C8C8;
+}
+.cust_para
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2vw;
+line-height: 2;
+color: #727072;
+}
+
+.cust_subHeading
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1.8vw;
+line-height: 1.4;
+/* or 22px */
+color: #000000;
+}
+
+.cust_number
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 4vw;
+line-height: 1;
+color: #C8C8C8;
+margin-bottom: 0;
+}
+
+.cust_number3
+{
+    padding-top: 20% !important;
+    
+}
+
+
+.productReview_row{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin-top: 12vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.clp_banner2Container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+}
+
+.clp_container1{
+    background: #BBE1E9;
+    display: flex;
+    width: 46%;
+    height: 30vh;
+    margin-left: 3vw;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clp_img1{
+    width: 50%;
+    height: 150%;
+}
+
+.clp_container2{
+    background: #E5F2C6;
+    display: flex;
+    width: 46%;
+    height: 30vh;
+    margin-left: 3vw;
+    border-radius: 12px;
+    align-items: center; 
+    cursor: pointer;   
+}
+
+.clp_containerRight{
+
+}
+
+.clp_heading1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 1vh;
+    color: #3F3F3F;
+}
+
+.clp_heading2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #3F3F3F;
+    margin: 0px;  
+}
+
+.clp_container3{
+    display: flex;
+    flex-direction: row;
+    width: 94vw;
+    margin: 3vw;
+}
+
+.cpl_outerWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.clp_c3innerWrapper{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.clp_img2{
+    width: 10vw;
+}
+
+.clp_heading3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.clp_red{
+    color: #E95428 !important;
+}
+
+.clp_green{
+    color: #9DCB3B !important;
+}
+
+.clp_blue{
+    color: #5EC8E0 !important;
+}
+
+.clp_orange{
+    color: #FFA033 !important;
+}
+
+.clp_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    width: 100%;
+    color: #727072;
+    margin: 0px;
+}
+
+.clp_container4{
+    display: flex;
+    flex-direction: row;
+    background: #F8F8F8;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 100vw;
+}
+
+.clp_img3{
+    width: 20%;
+    height: 120%;
+    margin-right: 20%;
+}
+
+.clp_heading4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 48px;    
+    color: #87B20F;
+    margin: 0px;
+}
+
+.black
+{
+    color: #3F3F3F;;
+}
+
+.clp_heading5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7em;   
+    color: #727072;
+    width: 55%;
+}
+
+/*=============================================================================================================*/
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    .clp_banner {
+        margin: 2.5vh auto 3.5vh 3vw;
+    }
+
+    .clp_banner2Container{
+        margin-bottom: 7vh;
+    }
+
+    .clp_container1{
+        height: 15vh;
+    }
+
+    .clp_container2{
+        height: 15vh;
+    }
+
+    .clp_heading1{
+        font-size: 2.5vw;
+    }
+
+    .clp_heading2{
+        font-size: 2vw;
+    }
+
+    .clp_img2{
+        width: 8vw;
+    }
+
+    .clp_heading3{
+        font-size: 2.5vw;
+        height: 5vw;
+    }
+
+    .clp_c3innerWrapper{
+        width: 40%;
+    }
+
+    .clp_text{
+        height: 10vw;
+    }
+
+    .clp_img3{
+        width: auto;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+    .clp_container4{
+        height: 25vw;
+    }
+
+    .clp_heading4{
+        font-size: 4vw;
+        line-height: 1;
+    }
+
+    .clp_heading5{
+        font-size: 2.3vw;
+    }
+}
+/*=============================================================================================================*/
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .cust_numberContainer
+    {
+        width: 35vw;
+    }
+    .productReview_row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        margin: 0;
+          margin-right: 0px;
+          margin-left: 0px;
+        /* margin-top: 12vh; */
+        margin-top: 2vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        height: fit-content;
+        padding: 0;
+      }
+    .cust_number3
+{
+    padding-top: 0% !important;
+    
+}
+    .cust_banner2 {
+        display: none;
+        margin-bottom: 10vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        width: 90%;
+        height: 10vh;
+        margin-left: 3%;
+        margin-right: 3%;
+        background-image: url("../img/customizedLandingPage/banner2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        /* margin-top: -10vh; */
+    }
+    .cust_rightBanner {
+        display: flex;
+        flex-direction: column;
+        float: center;
+        /* text-align: center; */
+        justify-content: left!important;
+        align-items: flex-start!important;
+        padding-top: 0vh !important;
+        padding-left: 10vw;
+    }
+    .cust_clickBtn
+{
+    background-color: #575757;
+    border-radius: 1vw;
+    padding-top: 0.5vh; 
+    padding-bottom: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    /* margin-top: -1.5vh; */
+}
+    .clp_heading4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 20px;    
+        color: #87B20F;
+        margin: 0px;
+    }
+    .cust_heading
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 4vw;
+line-height: 1.2;
+color: #000000;
+}
+    .cust_para
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 2.4vw;
+line-height: 1.4;
+color: #727072;
+margin-left: 10vw;
+}
+
+.cust_subHeading
+{
+    margin-left: 10vw;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 2.8vw;
+line-height: 1.4;
+/* or 22px */
+color: #000000;
+}
+.cust_number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18vw;
+    line-height: 0.5;
+    color: #C8C8C8;
+    margin: 0;
+    padding: 0;
+  }
+    .productReview_Col_noBorder
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    /* padding: 1.5vw; */
+    /* margin-bottom: 2vw; */
+    margin: 0;
+    height: fit-content;
+    padding-top: 0;
+    /* margin-top: -15%; */
+    /* border-right: 0.5px solid #C8C8C8; */
+}
+    .productReview_Col
+{
+    justify-content: center !important;
+    align-items: center !important;
+    /* padding: 1.5vw; */
+    /* margin-bottom: 2vw; */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    height: fit-content;
+    width: 100%;
+    border-right: none;
+    /* margin-top: -15%; */
+}
+
+    .productReview_Col_bothBorder
+{
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    flex-direction: row;
+    /* padding: 1.5vw;     */
+    padding-top: 0;
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    /* margin-top: -15%; */
+    border-right: none;
+    margin-bottom: 2vh;
+    border-left: none;
+}
+
+    .clp_banner {
+        width: 94vw;
+        margin: 2vw auto 2vw 3vw;
+        cursor: pointer;
+    }
+
+    .clp_banner2Container {
+        margin-bottom: 10vw;
+    }
+
+    .clp_container1 {
+        height: 15vw;
+    }
+
+    .clp_container2 {
+        height: 15vw;
+    }
+
+    .clp_heading1 {
+        font-size: 2.4vw;
+        letter-spacing: 1.4;
+        margin-bottom: 1vw;
+        width: 30vw;
+        margin-left: 2%;
+    }
+
+    .clp_heading2 {
+        font-size: 2.4vw;
+        letter-spacing: 1.4;
+        margin-top: 2vw;
+        margin-left: 2%;
+    }
+
+    .clp_container3{
+        flex-direction: column;
+    }
+
+    .cpl_outerWrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .clp_c3innerWrapper {
+        width: 50%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 22vw;
+    }
+
+    .cpl_c3col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clp_heading3 {
+        font-size: 2.8vw;
+        width: 100%;
+        margin: 1.5vw 0vw;
+    }
+
+    .clp_text {
+        font-size: 2.7vw;
+        width: 100%;
+    }
+
+    .clp_img2{
+        margin-right: 4vw;
+        object-fit: contain;
+    }
+
+    .clp_heading4 {
+        font-size: 5vw;
+        color: #87B20F;
+        margin: 0px;
+    }
+
+    .clp_heading5 {
+        color: #727072;
+        width: 95%;
+        font-size: 4vw;
+    }
+
+    .clp_container4 {
+        height: 35vw;
+        margin-top: 15vw;
+        width: 100vw;
+    }
+
+    .clp_img3 {
+        width: 55%;
+        height: 120%;
+        margin: 0px 7vw;
+    }
+
+
+}

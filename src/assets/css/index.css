@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+html{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.landing_heading1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    text-align: center;
+    color: #464646;
+}
+
+.float
+{
+    width: 5vw;
+    height: 5vw;
+    object-fit: contain;
+    position: sticky;
+    padding-bottom: 1vw;
+}
+.floatingIcon
+{margin-top: -11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    position: sticky;
+    bottom: 10%;
+    right: 10%;
+}
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    
+    .landing_heading1 {
+        font-size: 2.3vw !important;
+        line-height: 2.3vw !important;
+      }
+}
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    
+    .landing_heading1 {
+        font-size: 3.1vw;
+        line-height: 4.1vw;
+      }
+}

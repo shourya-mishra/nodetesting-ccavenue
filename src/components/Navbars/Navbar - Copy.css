@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    background-color: #F4F4F4;
+    padding-top: 1vw;
+  }
+
+.navbar_wrapperUpper {
+    display: flex;
+    flex-direction: row;
+    height: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar_logo {
+    width: 15vw;
+}
+
+.navbar_searchWrapper {
+    display: flex;
+    flex-direction: row;
+    height: 3vw;
+    border: 0px;
+    outline: none;
+    background: #C4C4C4;
+    opacity: 0.38;
+    border-radius: 16vw;
+    width: 40vw;
+  }
+
+.navbar_searchInput{
+    background: #C4C4C4;
+    opacity: 1;
+    border-radius: 16vw;
+    width: 40vw;
+    border: 0px;
+    outline: none;
+    padding: 0.5vw 1.5vw;
+    color: black;
+}
+
+.navbar_searchButton{
+    background: #C4C4C4;
+    border-radius: 16vw;
+    width: 5vw;
+    border: 0px;
+
+    border-left: 1px solid #C4C4C4;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navbar_searchImg{
+    width: 1.5vw;
+}
+
+.navbar_actionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20vw;
+    justify-content: space-between;
+  }
+
+.navbar_actionWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_actionIcon{
+    width: 2vw;
+}
+
+.navbar_wrapperLower {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3.5vw;
+  }
+
+.navbar_linkContainer{
+
+}
+
+.navbar_link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1.1vw;
+    text-align: center;
+    
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+.navbar_desktopHidden{
+    display : none;
+}
+
+/*======================================================================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 1024px){
+    .navbar_mobHidden{
+        display : none ;
+    }
+
+    .navbar_mobShow{
+        display : flex;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.5ss;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .navbar_sideMenuSpan{
+        font-size:30px;
+        cursor:pointer;
+      }
+
+      .sideNavOpen{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.5s;
+        width : 100px;
+      }
+
+      .sideNavClose{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 0px;
+        color: #818181;
+        display: none;
+        transition: 0.5s;
+        width : 0px;
+      }
+      
+}

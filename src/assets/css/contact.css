@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.contact_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 5vw 5vw;
+}
+
+.contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    background: #f3f3f3;
+    align-items: flex-start;
+    padding: 2.5vw;
+    border-radius: 12px 0px 0px 12px;
+  }
+
+.contact_heading1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4em;
+    line-height: 1;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #283646;
+    margin: 2vh 0vw;
+}
+
+.contact_heading2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    margin: 0vw;
+}
+
+.contact_formWrapper{
+    margin: 0vw;
+    width: 40vw;
+}
+
+.contact_label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #000000;
+    margin: 0.6vw 0vw;
+}
+
+.contact_input {
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #D4D4D4;
+    height: 3vw;
+    width: 100%;
+    margin-bottom: 0.5vw;
+    outline: none;
+    padding-left: 0.2vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 150%;
+    color: #A2A9B0;
+    padding-left: 1vw;
+  }
+
+.contact_widthSmall{
+    width: 75% !important;
+}
+
+.contact_widthMedium{
+    width: 15vw !important;
+}
+
+.contact_button {
+    background: #DBDBDB;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 150%;
+    color: #6C6C6C;
+    border: none;
+    margin-top: 2vw;
+    height: 3vw;
+    width: 8vw;
+  }
+
+  .detcontaindiv{
+      display: flex;
+  }
+
+  .detcontact{
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.2;
+    color: #344252;
+    border: none;
+    width: 100%;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 40px;
+    height: 40px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer !important;
+    margin-right: 2%;
+  }
+
+  .margtop{
+      margin-top: 5%;
+  }
+
+  .contactdeticon{
+      font-size: 1.6em !important;
+      margin-right: 2%;
+      padding: 10px;
+  }
+
+
+  .flexible-container {
+    position: relative;
+    padding-bottom: 30%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 45vw;
+    min-height: 45vh;
+    background-color: #eeeeee;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .flexible-container iframe,
+  .flexible-container object,
+  .flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+.contact_mapContainer{
+    width: 45vw;
+    min-height: 90vh;
+    background-color: #eeeeee;
+}
+
+.contact_map{
+    width: 45vw;
+    height: 100%;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.contact_message{
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #D4D4D4;
+    width: 100%;
+    margin-bottom: 1vw;
+    outline: none;
+    padding-left: 0.2vw;
+    font-family: Montserrat;
+    height: 8vw;
+}
+
+.contact_checkBox{
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.contact_checkboxText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 1;
+    
+    color: #3A3A3A;
+    margin-left: 0.5vw;
+}
+
+/*====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    .contact_container {
+        flex-direction: column-reverse;
+        margin-bottom: -20vw;
+    }
+
+    .flexible-container {
+        position: relative;
+        padding-bottom: 30%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 100vw;
+        min-height: 15vw;
+        top: -5vw;
+        border-radius: 0px;
+    }
+
+    .contact_wrapper {
+        width: 60vw;
+        position: relative;
+        top: -20vw;
+        z-index: 2;
+        align-items: center;
+        border-radius: 0px;
+      }
+
+    .contact_heading1{
+        font-size: 5vw;
+    }
+
+    .detcontaindiv {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact_formWrapper {
+        width: 55vw;
+    }
+
+    .contact_input {
+        border-radius: 5px;
+        height: 5vw;
+    }
+
+    .contact_label {
+        margin: 1.5vw 0vw;
+        font-weight: 500;
+    }
+
+    .margtop {
+        margin-top: 10%;
+    }
+
+    .contact_message {
+        border-radius: 5px;
+        height: 25vw;
+    }
+
+    .contact_checkboxText {
+        font-size: 1.8vw;
+        margin-left: 1.5vw;
+    }
+
+    .contact_button {
+        font-size: 2.5vw;
+        margin-top: 2vw;
+        height: 6vw;
+        width: 25vw;
+        margin-left: 30%;
+        border-radius: 5px;
+        margin-bottom: 7vw;
+    }
+}
+
+/*====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .contact_container {
+        flex-direction: column-reverse;
+        margin-bottom: -20vw;
+    }
+
+    .flexible-container {
+        position: relative;
+        padding-bottom: 30%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 100vw;
+        min-height: 50vw;
+        top: -5vw;
+        border-radius: 0px;
+    }
+
+    .contact_wrapper {
+        width: 60vw;
+        position: relative;
+        top: -45vw;
+        z-index: 2;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .contact_heading1{
+        font-size: 6vw;
+    }
+
+    .detcontaindiv {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact_formWrapper {
+        width: 55vw;
+    }
+
+    .contact_input {
+        border-radius: 5px;
+        height: 8vw;
+    }
+
+    .contact_label {
+        margin: 1.5vw 0vw;
+        font-weight: 500;
+    }
+
+    .margtop {
+        margin-top: 10%;
+    }
+
+    .contact_message {
+        border-radius: 5px;
+        height: 25vw;
+    }
+
+    .contact_checkboxText {
+        font-size: 2.2vw;
+        margin-left: 1.5vw;
+    }
+
+    .contact_button {
+        font-size: 3vw;
+        margin-top: 2vw;
+        height: 8vw;
+        width: 30vw;
+        margin-left: 25%;
+        border-radius: 5px;
+        margin-bottom: 7vw;
+    }
+}

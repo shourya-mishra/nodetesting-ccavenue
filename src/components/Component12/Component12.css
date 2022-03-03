@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.compo12_wrapper {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: fit-content !important; */
+    justify-content: center;
+    margin-bottom: 3vw;
+    height: 45vw;
+    padding-top: 2% !important;
+}
+.compo12_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800 !important;
+    font-size: 2.4vw;
+    line-height: 1vw;
+    text-align: center;    
+    color: #464646;
+margin-top: 5vw;
+margin-bottom: 5vw;
+}
+.compo12_row{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 1%;
+    width: 100%;   
+    /* position: absolute; */
+    margin-top: 8vw;
+     /* position: absolute; */
+    /*top: 10;
+    left: 0; */
+    /* grid-area: 1 / 1 / 2 / 2; */
+    /* display: grid;
+  place-items: center;
+  grid-template-areas:
+                  "compo12card_colorWrapper-div"; */
+    /* z-index: 999; */
+    /* position: relative; */
+    /* width: 100%; */    
+}
+.compo12card_colorWrapper
+{
+    position: absolute;
+    /* background-color: #FFECC5; */
+    border-radius: 2vw;
+    padding-bottom: 5vw;
+    padding-top: 0vw;
+    /* margin-top: 2vw; */
+    margin-left: 10%;
+    padding-left: 2%;
+    height: 30vw;
+    width: 100%;
+    align-items: center;
+    /* grid-area:compo12card_colorWrapper-div; */
+    /* position: relative; */
+    /* display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 150px 1fr; */
+    /* z-index: -999; */
+}
+.compo12_row::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.compo12_row {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.active .productlistdot{
+    background-color: #55555594 !important;
+    width: 1vw;
+    height: 0.5vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.inactive .productlistdot{
+    background-color: #adadad5d !important;
+    width: 1vw;
+    height: 0.5vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+
+.productlistright{
+    height: 0px !important;
+    width: 0px !important;
+    background-color: transparent;
+    outline: none;
+    padding:0 !important;
+    margin: 0 !important;
+    border: none;
+}
+
+.productlistleft{
+    height: 0px !important;
+    width: 0px !important;
+    background-color: transparent;
+    outline: none;
+    padding:0 !important;
+    margin: 0 !important;
+    border: none;
+}
+
+.carousel-button-group{
+    margin-top: -20vw;
+    width: 100%;
+}
+
+
+
+.productlistleftarrow{
+    font-size: 2.2vw !important;
+    color: #ffffff !important;
+    background-color: #000000;
+    position: absolute;
+    left: -7.5%;
+    font-weight: bold !important;
+    padding:0.1%;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .productlistrightarrow{
+   font-size: 2.2vw !important;
+   color: #ffffff !important;
+   background-color: #000000;
+    position: absolute;
+    right: 14%;
+    border-radius: 100px;
+    font-weight: bold !important;
+    padding: 0.1%;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .productlist{
+    margin-left: -6%;
+    margin-top: -1%;
+    width: 110%;
+    margin-right: 5%;
+    padding-left: 0.05%;
+    min-height: 35.5vw;
+  }
+
+  .productlistitem{
+  }
+
+  .homecatspbtn{
+    background: #FFC149;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 3% 5%;
+    margin-top: -15%;
+    margin-right: 6%;
+    float: right;
+    transition: all 0.5s ease;
+  }
+
+  .homecatspbtn:hover{
+    background: #1a1a1a;
+    color:#ffffff;
+  }
+
+.compo12card_wrapper{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* width: 15vw; */
+    /* height: 17vw; */
+    /* background-color: #C9F6FF; */
+    border-radius: 2vw;
+    /* padding: 0.5vw;  */
+    margin-right: 2vw;
+    margin-top: 1.5vw;
+    background: #ffffff;
+    overflow: hidden;
+box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.185);
+    cursor: pointer;
+    width:20vw;
+/* border-radius: 16px; */
+/* margin-left: -10vw; */
+z-index: 1;
+}
+
+.compo12card_wrapper:hover .compo12card_img{
+    transform: scale(1.1);
+}
+
+.compo12card_img{
+    /* width: 10vw; */
+    height: 15vw !important;
+    /* width: 20vw; */
+    object-fit: cover;
+    margin-bottom: 0vw;
+    /* margin-top: -2vw; */
+    padding-left: 3vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.compo12card_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 1.4;
+    margin-top: 2%;
+    /* identical to box height, or 139% */
+    color: #333333;
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+    
+}
+.compo12card_row
+{
+  display: flex;
+  flex-direction: row;
+  padding: 0vw;
+  margin: 0vw;
+  overflow: hidden;
+}
+.compo12card_contentContainer
+{
+    text-align: left;
+    justify-content: left;
+    background-color: #F6F6F6;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius:2vw;
+    /* padding: 0vw !important; */
+    margin: 0vw !important;
+    padding-bottom: 1vw !important;
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+.compo12card_like
+{
+    width: 2.5vw;
+    height: 2vw;
+    position: absolute !important;
+    right: 3%;
+    top: 1%;
+    object-fit: cover;
+    justify-content: right;
+    padding: 1vw;
+}
+
+.compo12card_likeindex
+{
+    width: 2.5vw;
+    height: 2vw;
+    position: absolute !important;
+    right: 10%;
+    top: 5%;
+    object-fit: cover;
+    justify-content: right;
+    padding: 1vw;
+}
+
+.compo12card_price
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1.4vw;
+line-height: 0.9;
+margin-top: 0%;
+/* identical to box height, or 160% */
+color: #333333;
+}
+.compo12card_oldPrice
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+text-decoration: line-through;
+font-size: 1.3vw;
+line-height: 0.9;
+margin-top: 0%;
+/* identical to box height, or 185% */
+color: #777777;
+}
+.compo12card_discount
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 0.9;
+margin-top: 0%;
+/* identical to box height, or 185% */
+color: #50AC6A;
+padding-left: 1vw;
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .compo12card_like {
+        width: 3.5vw;
+        height: 3vw;
+        position: absolute !important;
+        /* right: 28%; */
+        /* left: 25%; */
+        top: 1%;
+        padding: 0vw;
+          /* padding-right: 0vw; */
+        padding-right: 2vw;
+      }
+    .compo12card_price
+    {  
+    font-size: 3.2vw;
+    line-height: 1.2;
+    margin-top: 0%;
+    }
+    .compo12card_likeindex
+{
+    width: 4vw;
+    height: 3.5vw;
+    position: absolute !important;
+    right: 20%;
+    top: 10%;
+    object-fit: contain;
+    justify-content: right;
+    padding: 1vw;
+}
+    /* .compo12card_like
+{
+    width: 1.5vw;
+    height: 1vw;
+    position: absolute !important;
+    /* right: 28%; */
+  /* left: 15%;
+    top: 1%;
+    padding: 0vw;
+} */
+
+
+    .homecatspbtn{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+        border-radius: 3px;
+        padding: 2% 5%;
+        /* margin-top: -10%; */
+        margin-right: 6%;
+        float: right;
+        font-size: 3vw;
+        transition: all 0.5s ease;
+        margin-top: -8vw !important;
+      }
+    .compo12card_oldPrice
+    {      
+    font-size: 2.8vw;
+    line-height: 1.2;
+    margin-top: 0%;   
+    }
+    .compo12card_discount
+    {       
+    font-size: 2.8vw;
+    line-height: 1.2;
+    margin-top: 0%;
+    padding-left: 1vw;
+    }  
+    .compo12_heading
+{
+    font-size: 5vw !important;
+    line-height: 1 !important;
+}
+.compo12card_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 1.8;
+    margin-top: 2%;
+    /* identical to box height, or 139% */
+    color: #333333;
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+    
+}
+.compo12card_img{
+    height: 30vw !important;
+    object-fit: cover;
+    margin-bottom: 0vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.productlist {
+    margin-left: -6%;
+    /* margin-top: -1%; */
+    /* width: 100%; */
+    /* margin-right: 0%; */
+    /* padding-left: 0.05%; */
+    min-height: 55.5vw;
+}
+
+.carousel-button-group{
+    margin-top: -40vw;
+    width: 100%;
+}
+
+
+
+.productlistleftarrow{
+    font-size: 4.2vw !important;
+    color: #ffffff !important;
+    background-color: #000000;
+    position: absolute;
+    left: -10%;
+    font-weight: bold !important;
+    padding:0.9%;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .productlistrightarrow{
+   font-size: 4.2vw !important;
+   color: #ffffff !important;
+   background-color: #000000;
+    position: absolute;
+    right: -6%;
+    border-radius: 100px;
+    font-weight: bold !important;
+    padding: 0.9%;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+
+.compo12_wrapper {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: fit-content !important; */
+    justify-content: center;
+    margin-bottom: 3vw;
+    height: 80vw;
+    padding-top: 2% !important;
+}
+
+.compo12card_colorWrapper {
+    position: absolute;
+    border-radius: 2vw;
+    padding-bottom: 5vw;
+    padding-top: 0vw;
+    margin-left: 10%;
+    padding-left: 2%;
+    height: 65vw;
+    width: 82%;
+}
+.compo12card_wrapper{    
+    border-radius: 2vw;
+    margin-right: 3vw;
+    margin-top: 5vw;
+box-shadow: 4px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    width:42vw;
+    border-radius: 20px;
+    margin-bottom: 2%;
+z-index: 1;
+}
+
+}
+
+

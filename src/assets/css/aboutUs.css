@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.abtUs_wrapper{
+    background-color: #eeeeee;
+}
+
+.abtUs_vidContainer{
+
+}
+
+.abtUs_video{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.abtUs_vidBtn{
+    width: 16vw;
+    height: 7vh;
+    position: relative;
+    bottom: 14vh;
+    left: 42vw;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff !important;
+}
+
+.abtUs_vidBtn2{
+    width: 2vw;
+    position: relative;
+    bottom: 7vh;
+    left: 33vw;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.abtUs_vidBtn2img{
+    width: 50%;
+    transform: rotate(90deg);;
+}
+
+.abtUs_heading1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6em;
+    text-align: center;
+    color: #000000;
+}
+
+.abtUs_orange{
+    color: #FFA033;
+}
+
+.abtUs_para{
+    width: 90vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
+    margin-left: 5vw;
+}
+
+.abtUs_hr{
+    border: 0.4px solid #C5C5C5;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+}
+
+.abtUs_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0vh 7vw;
+}
+
+.abtUs_img{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background: white;
+}
+
+.abtUs_text1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-right: 10vw;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+
+.abtUs_text2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 10vw;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.abtUs_ceoWrapper{
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0vw;
+}
+
+.abtUs_ceoText{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6em;
+    text-align: center;
+    color: #000000;
+    width: 60%;
+}
+
+.abtUs_ceoQuote1{
+    width: 5%;
+    padding-right: 5%;
+}
+
+.abtUs_ceoQuote2{
+    width: 5%;
+    padding-left: 5% !important;
+}
+
+.abtUs_ceoDp{
+    width: 10%;
+    margin-top: 10vh;
+}
+
+.abtUs_ceoName{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    color: #000000;
+    margin: 2vh 0vw;
+}
+
+.abtUs_ceoDesignation{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-align: center;
+    color: #747474;
+    margin: 0vw;
+}
+
+
+/*==================================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    .abtUs_video {
+        width: 100vw;
+        height: 40vw;
+        object-fit: fill;
+    }
+
+    .abtUs_vidBtn {
+        width: 20vw;
+        height: 5vw;
+        position: relative;
+        bottom: 10vw;
+        left: 40vw;
+        font-size: 1.5vw;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .abtUs_vidBtn2 {
+        width: 5vw;
+        position: relative;
+        bottom: 7vw;
+        left: 28.5vw;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .abtUs_heading1 {
+        margin-top: 0px;
+        font-size: 3.5vw;
+        margin: 2vw;
+    }
+
+    .abtUs_para {
+        width: 90vw;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 1.8;
+        color: #000000;
+        text-align: center;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+
+    .abtUs_hr {
+        width: 100vw;
+        margin-left: 0vw;
+        margin-bottom: 3vh;
+    }
+
+    .abtUs_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abtUs_img {
+        width: 30%;
+    }
+
+    .abtUs_text1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 1.8;
+        letter-spacing: 0.01em;
+        color: #000000;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .abtUs_text2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 1.8;
+        letter-spacing: 0.01em;
+        color: #000000;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .abtUs_colRev{
+        flex-direction: column-reverse !important;
+    }
+
+    .abtUs_ceoWrapper {
+        padding: 0vh 0vw;
+        height: 40vw;
+        margin-bottom: 30vw;
+    }
+
+    .abtUs_ceoText {
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 2.2vw;
+        text-align: center;
+        color: #000000;
+        width: 85%;
+        margin-top: 5vw;
+        margin-bottom: 8vw;
+    }
+
+    .abtUs_ceoDp {
+        width: 22%;
+        margin-top: 6vw;
+    }
+
+    .abtUs_ceoName {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 2.3vw;
+    }
+
+    .abtUs_ceoDesignation{
+        font-size: 1.8vw;
+    }
+}
+
+/*==================================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .abtUs_video {
+        width: 100vw;
+        height: 35vw;
+        object-fit: fill;
+    }
+
+    .abtUs_vidBtn {
+        width: 20vw;
+        height: 5vw;
+        position: relative;
+        bottom: 12vw;
+        left: 40vw;
+        font-size: 0.5em;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .abtUs_vidBtn2 {
+        width: 5vw;
+        position: relative;
+        bottom: 7vw;
+        left: 28.5vw;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .abtUs_heading1 {
+        margin-top: 0px;
+        font-size: 1.2em;
+        margin: 2vw;
+    }
+
+    .abtUs_para {
+        width: 90vw;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.8vw;
+        line-height: 1.4;
+        color: #000000;
+        text-align: center;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+
+    .abtUs_hr {
+        width: 100vw;
+        margin-left: 0vw;
+        margin-bottom: 3vh;
+    }
+
+    .abtUs_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abtUs_img {
+        width: 40%;
+    }
+
+    .abtUs_text1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.8vw;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        color: #000000;
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .abtUs_text2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.8vw;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        color: #000000;
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .abtUs_colRev{
+        flex-direction: column-reverse !important;
+    }
+
+    .abtUs_ceoWrapper {
+        padding: 0vh 0vw;
+        min-height: 85vw;
+        padding-bottom: 5vw;
+        margin-bottom: -15vw;
+    }
+
+    .abtUs_ceoText {
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 4vw;
+        text-align: center;
+        color: #000000;
+        width: 85%;
+        margin-top: 5vw;
+    }
+
+    .abtUs_ceoDp {
+        width: 30%;
+        object-fit: contain;
+        margin-top: 0vw;
+    }
+
+    .abtUs_ceoName {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 3.5vw;
+    }
+
+    .abtUs_ceoDesignation{
+        font-size: 2.5vw;
+    }
+
+    .abtUs_ehading1{
+        font-size: 5vw;
+    }
+
+    .abtUs_ceoQuote1{
+        width: 5%;
+        padding-right: 5%;
+        object-fit: contain;
+    }
+    
+    .abtUs_ceoQuote2{
+        width: 5%;
+        padding-left: 5% !important;
+        object-fit: contain;
+    }
+}

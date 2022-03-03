@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.wl_wrapper{
+    margin: 5vw;
+}
+
+.wl_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.wlc_wrapper{
+    width: auto;
+    border: 2px solid #F3F3F3;
+    border-radius: 25px;
+    padding-left: 2%;
+    padding-right: 10%;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.5%;
+}
+
+.wlc_img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.wlc_detailsWrapper{
+    margin-left: 2vw;
+}
+
+.wlc_name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 1vw;
+    line-height: 1;
+    margin-bottom: 1%;
+    width: 50vw;
+}
+
+.wlc_quantity{
+    margin: 0vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.wlc_priceContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 1vw auto;
+    margin-bottom: 0.5vw;
+    align-items: center;
+}
+
+.wlc_price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0px;
+    margin-right: 1vw;
+}
+
+.wlc_priceOriginal{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7vw;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #C5C5C5;
+    margin: 0px;
+    text-decoration: line-through;   
+}
+
+.wlc_buttonWrapper{
+    margin-left: 40vw;
+    display: flex;
+    width: 22vw;
+    justify-content: space-between;
+    position: absolute;
+    right: 2%;
+    top:20%;
+}
+
+.wlc_btn{
+    height: 3vw;
+    width: 10vw;
+    border: none;
+    border-radius: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+}
+
+.wlc_btnColor1{
+    background: #FFC656;
+}
+
+.wlc_btnColor2{
+    background: #F3F3F3;
+}
+
+/*=================================================================================*/
+
+@media screen and (max-width : 464px) and (min-width : 0px) {
+    .wl_heading{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    .wlc_wrapper{
+        border-radius: 5px;
+        padding-bottom: 3vw;
+        padding-right: 5%;
+    }
+
+    .wlc_img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .wlc_name{
+        font-weight: 500;
+        font-size: 3.5vw;
+        width: 38vw;
+    }
+
+    .wlc_quantity{
+        font-size: 3vw;
+    }
+
+    .wlc_priceContainer{
+        margin: 2.5vw auto;
+        margin-bottom: 1vw;
+    }
+
+    .wlc_price{
+        font-weight: 500;
+        font-size: 3vw;
+        margin-right: 3vw;
+    }
+
+    .wlc_priceOriginal{
+        font-size: 2.7vw;
+    }
+
+    .wlc_buttonWrapper{
+        margin-left: 13vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wlc_btn{
+        height: 6vw;
+        width: 20vw;
+        border-radius: 7px;
+        font-size: 2vw;
+    }
+
+    .wlc_btnColor2{
+        margin-top: 3vw;
+    }
+
+    .star-svg{
+        width: 4vw;
+    }
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.compo5_wrapper {
+    height: 12vw;
+    margin: 0vw 2vw;
+      margin-top: 0vw;
+    margin-top: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.animcontain{
+  width: 9.2vw;
+  height: 9.2vw;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.09);
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animcontain2{
+  width: 9.2vw;
+  height: 9.2vw;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.09);
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.compo5_innerWrapper{
+    background: rgba(221, 236, 191, 0.34);
+    width: 96%;
+    margin-left: 2%;
+    height: 9vw;
+    margin-top: -7vw;
+}
+
+.compo5card_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+}
+
+.compo5card_imgWrapper{
+    width: 8vw;
+    height: 8vw;
+    object-fit: contain !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.09);
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compo5card_img{
+    width: 2.7vw;
+    height: 4vw;
+    object-fit: contain;
+}
+
+.compo5card_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8vw;
+    line-height: 1vw;
+    text-align: center;
+    
+    color: #000000;
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+
+  .compo5_wrapper {
+    height: 20vw !important;
+    overflow-x: auto;
+    margin: 0px;    
+    padding-left: 10vw;  
+  }
+
+  .compo5card_imgWrapper {
+    width: 11vw;
+    height: 11vw;
+  }
+
+  .compo5card_img {
+    width: 3.5vw;
+    height: 4.5vw;
+  }
+
+  .compo5_innerWrapper {
+    height: 11vw;
+    margin-top: -12vw;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .compo5card_text {
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+  }
+
+  .compo5card_wrapper {
+    margin: 0px 1.2vw;
+  }
+
+  .animcontain{
+    width: 11vw;
+    height: 11vw;
+  }
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+  .compo5_wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 30vw;
+    margin: 0px;
+    padding-left: 12vw;
+  }
+
+  .compo5card_wrapper {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .compo5card_imgWrapper {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .compo5card_img {
+    width: 6vw;
+    height: 8vw;
+  }
+
+  .compo5_innerWrapper {
+    height: 17vw;
+    margin-top: -17vw;
+    width: auto;
+    margin-left: 0%;
+  }
+
+  .compo5card_text {
+    font-size: 2.4vw;
+    line-height: 2;
+    width: 80%;
+    white-space: initial;
+  }
+
+  .animcontain {
+    width: 20vw;
+    height: 20vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.09);
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4vw;
+  }
+}
