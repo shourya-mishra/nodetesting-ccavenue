@@ -11,12 +11,12 @@ app.use(express.static('public'));
 app.set('views', __dirname + '/public');
 app.engine('html', require('ejs').renderFile);
 
-app.get('/about', (req,res)=>{
+app.get('/', (req,res)=>{
     res.send('Working fine.')
 })
 
 
-app.get('/', function (req, res){
+app.get('/about', function (req, res){
     	res.render('dataFrom.html');
 });
 
