@@ -7,7 +7,7 @@ exports.postRes = function(request,response){
 	console.log('responsein')
     var ccavEncResponse='',
 	ccavResponse='',	
-	workingKey = '401B21E85393521AE0229403B2CF0504',	//Put in the 32-Bit key shared by CCAvenues.
+	workingKey = 'FC0C5AF32C086306F1736E90103C8295',	//Put in the 32-Bit key shared by CCAvenues.
 	ccavPOST = '';
 	
         request.on('data', function (data) {
