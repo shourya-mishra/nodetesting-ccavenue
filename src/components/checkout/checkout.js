@@ -237,7 +237,7 @@ class Checkout extends React.Component {
                 id="checkout_form"
                 className="checkout_form"
                 method="POST"
-                action="http://localhost:8080/api/ccavRequestHandler"
+                action="https://ccavenue-server.herokuapp.com/api/ccavRequestHandler"
               >
                 <h4 className="checkout_Content1">Add New Address</h4>
 
