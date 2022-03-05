@@ -243,7 +243,7 @@ class Checkout extends React.Component {
 
                 <p className="checkout_formContent1">Personal Information</p>
                 
-                <input type="text" name="merchant_id" id="merchant_id" value="847815" hidden />
+                <input type="text" name="merchant_id" id="merchant_id" value="848238" hidden />
                 <input type="text" name="order_id" id="order_id" value={this.state.order_id} hidden />
                 <input type="text" name="currency" id="currency" value="INR" hidden />
                 <input type="text" name="amount" id="amount" value={this.state.total} hidden />
