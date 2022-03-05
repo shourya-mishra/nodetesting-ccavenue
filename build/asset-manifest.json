@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b250bcaa.css",
-    "main.js": "/static/js/main.16ba808b.js",
+    "main.js": "/static/js/main.d49630cb.js",
     "static/js/27.88300345.chunk.js": "/static/js/27.88300345.chunk.js",
     "static/media/AkoiBG.mp4": "/static/media/AkoiBG.e680ad453821b7324c19.mp4",
     "static/media/blogBanner.png": "/static/media/blogBanner.cc3b368b23482c6e45f5.png",
@@ -81,6 +81,6 @@
   },
   "entrypoints": [
     "static/css/main.b250bcaa.css",
-    "static/js/main.16ba808b.js"
+    "static/js/main.d49630cb.js"
   ]
 }
