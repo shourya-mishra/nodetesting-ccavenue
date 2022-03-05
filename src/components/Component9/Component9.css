@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.slider
+{
+    margin-bottom: 3vw;
+    /* padding: 1vw; */
+    /* width: 100%; */
+}
+.react-multi-carousel-dot button {
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    /* border-radius: 50%; */
+    background-color: gray;
+    opacity: 1;
+    /* padding: 5px 5px 5px 5px; */
+    box-shadow: none;
+    transition: background .5s;
+    /* border-width: 2px; */
+    padding-left: 1vw;
+    border-style: solid;
+    /* border-color: grey; */
+    /* padding: 0; */
+    margin: 0;
+    margin-right: 6px;
+    outline: 0;
+    cursor: pointer;
+
+}
+.react-multi-carousel-dot--active button {
+    background-color: #080808;
+    border-color: #080808;
+}
+.compo9_wrapper {
+   /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: fit-content !important; */
+    justify-content: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 0vw;
+    margin-top: 5vw;
+    min-height: 40vw;
+    text-align: center;
+}
+.compo9card_col{
+    display: flex;
+    flex-direction: column;
+}
+.checked
+{
+    color: orange;
+}
+.compo9_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 1vw;
+    text-align: center;
+    
+    margin-bottom: 3vw;
+    color: #464646;
+}
+.compo9card_heading
+{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 1.4vw;
+line-height: 1vw;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+
+.compo9card_name
+{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 1.4vw;
+line-height: 1.4;
+color: #000000;
+margin-bottom: 0vw;
+margin-left: 1vw;
+width: 70%;
+margin-top: -2%;
+}
+.compo9_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding-left: 5vw; */
+    /* padding-right: 5vw; */
+    /* width: 100%; */
+    /* margin: 2vw; */
+}
+.compo9card_role
+{
+    margin-left: 1vw;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 1.1vw;
+line-height: 0vw;
+color: #000000;
+margin-top: 1vw;
+}
+.compo9_ratingStar
+{
+    margin-left:0%;
+    position: absolute !important;
+    right: 17%;
+    top: 8%;
+}
+.compo9card_wrapper{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* width: 15vw; */
+    /* height: 18vw; */
+    /* background-color: #C9F6FF; */
+    box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.11);
+    border-radius: 2vw;
+    width: 28vw;
+    /* padding: 0.5vw;  */
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.compo9card_img{
+    /* width: 10vw; */
+    height:5.5vw !important;
+    width: 5.5vw !important;
+    object-fit: cover;
+    margin-bottom: 0vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    /* margin-top: -2vw; */
+}
+.compo9card_row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 1vw;
+    text-align: left;
+}
+.compo9card_contentWrapper{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 1vw;
+    text-align: center !important;
+    /* height: 14vw; */
+    /* width: 19vw; */
+}
+.compo9card_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 1.6vw;
+    text-align: center;
+    color: #000000;
+    margin-top: 0vw;
+    max-width: 90%;
+    margin-left: 5%;
+    min-height: 30vh;
+}
+
+.testlist{
+    height: 33vw;
+}
+
+
+.active .testlistdot{
+    background-color: #55555594 !important;
+    width: 1vw;
+    height: 0.5vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.inactive .testlistdot{
+    background-color: #adadad5d !important;
+    width: 1vw;
+    height: 0.5vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    
+.compo9_wrapper{
+    min-height: 74vw;
+}
+
+.testlist{
+    height:56vw;
+}
+
+.active .testlistdot{
+    background-color: #55555594 !important;
+    width: 4vw;
+    height: 2vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.inactive .testlistdot{
+    background-color: #adadad5d !important;
+    width: 4vw;
+    height: 2vw;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.compo9card_wrapper {
+    /* width: 15vw; */
+    height: fit-content;
+    /* background-color: #C9F6FF; */
+    box-shadow: 0px 4px 9px -1px rgb(0 0 0 / 11%);
+    border-radius: 2vw;
+    width: 90vw;
+    min-height: 36vw !important;
+    /* padding: 0.5vw; */
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.compo9card_row {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 1vw;
+    text-align: left;
+    margin-top: 15vh;
+    /* margin-bottom: 10vh; */
+}
+
+.compo9card_img {
+    /* width: 10vw; */
+    height: 6.5vw !important;
+    width: 6.5vw !important;
+    object-fit: cover;
+    margin-bottom: 0vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    /* margin-top: -2vw; */
+}
+
+.compo9card_name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8vw;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 0vw;
+    margin-left: 4vw;
+    width: 92vw;
+    margin-top: 0%;
+}
+
+.compo9card_text{
+
+    font-size: 3vw !important;
+    line-height: 1.4;
+}
+
+.compo9card_role {
+    margin-left: 1vw;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.6vw !important;
+    line-height: 0vw;
+    margin-left: 4vw;
+    color: #000000;
+    margin-top: 1vw;
+}
+.compo9_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    line-height: 1vw;
+    text-align: center;
+    
+    margin-bottom: 3vw;
+    color: #464646;
+}
+
+}

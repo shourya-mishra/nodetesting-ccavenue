@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.compo4_wrapper{
+    height: 10vw;
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compo4card_wrapper{
+    height: 5vw;
+    align-self: center;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 19.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4vw 1vw;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.compo4card_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compo4card_img{
+    width: 60%;
+}
+
+.compo4card_right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.compo4card_heading{
+    margin: 0vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    
+    color: #515151;
+    opacity: 1 !important;
+}
+
+.compo4card_text{
+    margin: 0vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 1vw;
+    
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    .compo4_wrapper {
+        height: 15vw !important;
+      }
+  
+      .compo4card_wrapper {
+        height: 7vw !important;
+      }
+  
+      .compo4card_img {
+        width: 60% !important;
+      }
+  
+      .compo4card_right {
+        height: 80% !important;
+      }
+  
+      .compo4card_heading {
+        font-size: 1.5vw !important;
+        line-height: 1.5vw !important;
+      }
+  
+      .compo4card_text {
+        font-size: 1.2vw !important;
+        line-height: 1.2vw !important;
+      }
+
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+  .compo4_wrapper{
+    margin-top: 3vw;
+    height: 18vw;
+    display: none !important;
+  }
+
+  .compo4card_wrapper {
+    height: 10vw;
+    width: 35vw;
+  }
+
+  .compo4card_left {
+    width: 40%;
+  }
+
+  .compo4card_right {
+    width: 70%;
+    height: 75%;
+  }
+
+  .compo4card_heading {
+    font-size: 2.3vw;
+    line-height: 2.3vw;
+  }
+
+  .compo4card_text {
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+  }
+
+}

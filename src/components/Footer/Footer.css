@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_justifySpaceBw{
+    justify-content: space-between;
+}
+
+.footer_justifySpaceAr{
+    justify-content: space-around;
+}
+
+.footer_wrapper{
+    margin: 2vw 0vw;
+    background: #F3F3F3;
+    padding: 3vw;
+}
+
+.footer_rightWrapper{
+    width: 50vw;
+    padding-left: 5vw;
+}
+
+.footer_logo{
+    width: 15vw;
+}
+
+.footer_address{
+    width: 25vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 2vw;
+    letter-spacing: 0.015em;
+    color: #464646;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.footer_socialIconWrapper{
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_socialIcon{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.footer_copywrites{
+    height: 2.5vw;
+    align-items: center;
+    display: flex;
+    margin: 0vw 2.5vw;
+    width: 15vw;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.footer_paymentWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+.footer_paymentCard{
+    height: 2.5vw;
+    width: 3.5vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_paymentIcon{
+    width: 2vw;
+}
+
+.footerList_wrapper{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerList_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.02em;
+    color: #464646;
+    border-bottom: 1px solid #464646;
+    margin: 0vw;
+    margin-bottom: 1vw;
+    cursor: pointer !important;
+}
+
+.footerList_link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 2vw;
+    letter-spacing: 0.03em;
+    color: #464646;
+    margin: 0vw;
+    cursor: pointer;
+}
+
+.footerList_link:hover{
+    color: #272727;
+    font-weight: 600; 
+}
+
+.footerMobile{
+    display: none;
+}
+
+.footerIcon{
+    
+}
+
+.footer_socialIconText{
+    display: none;
+}
+
+.footer_logo2{
+    display: none;
+}
+
+.footer_copywrites2{
+    display: none;
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+    .footer_copywrites {
+        width: 20vw;
+        font-size: 1.4vw;
+    }
+
+    .footer_socialIcon {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .footer_paymentCard {
+        height: 4vw;
+        width: 5vw;
+    }
+
+    .footer_paymentIcon {
+        width: 3vw;
+    }
+
+    .footerList_heading {
+        font-size: 1.5vw;
+      }
+
+    .footerList_link {
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }  
+
+    .footer_address {
+        font-size: 1.2vw;
+        line-height: 2vw;
+      }
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+
+    .footer_wrapper {
+        margin-top: 20vw;
+        padding-left: 10vw;
+        padding-top: 10vw;
+      }
+
+    .footerList_wrapper {
+        width: 18vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 4vw;
+    }
+
+    /* .footerAccordian {
+        width: 18vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 4vw;
+        height: 100%;
+    } */
+
+    .footerList_heading {
+        font-size: 3.2vw;
+        line-height: 1;
+    }
+
+    .footerList_link {
+        font-size: 3.2vw;
+        line-height: 2;
+        cursor: pointer !important;
+        /* height: auto;
+        display: contents;
+        transition: height 0.15s ease-out; */
+    }
+
+    /* .footerList_linkClose {
+        display: none;
+        height: 0vw;
+    } */
+
+    .footer_rightWrapper {
+        width: 55vw;
+        padding-left: 0vw;
+    }
+
+    .footer_logo {
+        /* width: 20vw; */
+        display: none;
+    }
+
+    .footer_logo2 {
+        display: flex;
+        width: 40vw;
+        object-fit: contain;
+        margin-top: 5vw;
+        align-self: center;
+        margin-left: -10vw;
+    }
+
+    .footer_address {
+        font-size: 3.2vw;
+        line-height: 2;
+        width: 80vw;
+      }
+
+      .footer_socialIcon {
+        width: 8vw;
+        height: 8vw;
+      }
+
+    .footer_socialIconWrapper{
+        width: 80vw;
+        margin-bottom: 3vw;
+    }
+
+    .footer_copywrites {
+        height: 4vw;
+        align-items: center;
+        display: flex;
+        margin: 0vw 2.5vw;
+        width: 20vw;
+        justify-content: center;
+        font-size: 2vw;
+        text-align: center;
+        display: none;
+    }
+
+    .footer_copywrites2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3vw;
+        line-height: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: 20vw;
+        color: #464646;
+    }
+
+    .footer_paymentWrapper {
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .footer_paymentCard {
+        height: 8vw;
+        width: 10vw;
+      }
+
+    .footer_paymentIcon {
+        width: 6vw;
+        height: 3vw;
+        object-fit: contain;
+    }
+
+    .footer_row{
+        flex-direction: column;
+    }
+
+    .footerDetailsWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2vw;
+      }
+
+    .footerIcon{
+        display: flex;
+        width: 5vw;
+        height: 5vw;
+        margin-right: 5vw;
+    }
+
+    .footerHr{
+        width: 100vw;
+        border : 0.1px solid #707070;
+        margin-left: -10vw;
+    }
+
+    .footer_socialIconText{
+        display: flex;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.2vw;
+        line-height: 1;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-top: 0px;
+        color: #464646;
+    }
+    /* .footerDesktop{
+          display : none;
+    }
+
+
+    .footerAccordIanbtn{
+        min-width: 100%;
+        padding: 1.4vw 1vw;
+        margin-bottom: 2px;
+        cursor: pointer;
+        padding-left: 1.6%;
+    }
+
+    .footerAccordIanhead {
+        background: #f5f5f5;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .footerAccordIanpanel{
+        margin-top: -1%;
+        margin-bottom: -1%;
+    } */
+
+    
+}

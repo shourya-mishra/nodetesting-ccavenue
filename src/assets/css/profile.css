@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.profile-first-section{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 0%;
+    }
+    
+    .profilerow2{
+      display: flex !important;
+    }
+
+    #settingsprofilepic{
+      width: 60%;
+      border-radius: 200px;
+      align-items: center;
+      text-align: center;
+      align-self: center;
+    }
+
+    .profilepiccard{
+      width:100%;
+      border-radius: 0;
+      height: 100vh;
+      padding-top: 10vh;
+      text-align: center;
+      border:none;
+      background-color: #FAFAFA;
+    }
+
+    .profilemobileinputrow{
+      width: 100%;
+    }
+
+    .profileinfocard{
+      width:100%;
+      border-radius: 0;
+      height: 100vh;
+      text-align: left;
+      border:none;
+      background-color: #fff;
+    }
+
+
+    .profile-label{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      /* identical to box height */
+
+      align-items: center;
+
+      /* Gray 1 */
+
+      color: #bbbbbb;
+    }
+
+    .card-profile-image{
+      margin-top: -20%;
+    }
+
+    #defaultnamebefore{
+      margin-top: 10%;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 1.2;
+      text-align: left;
+
+      color: #000000;
+    }
+
+    #defaultname{
+      max-width: 200px;
+      font-size: 14px;
+      line-height: 1.2;
+      margin-top: -10%;
+    }
+
+    .square{
+      border-radius: 0px !important;
+    }
+
+    .profilemobileinputfullrow{
+      display: flex;
+      width: 60vw;
+      margin-top: 4%;
+    }
+
+    .profilesecondsection{
+      padding-left: 5%;
+    }
+
+    .profile-input{
+      background: #FAFAFA !important;
+      /* Gray 5 */
+      width: 97%;
+
+      border: 1px solid #E0E0E0;
+      box-sizing: border-box;
+      border-radius: 0 !important;
+      box-shadow: none;
+      height: 45px !important;
+      padding-left: 2%;
+    }
+
+    .profile-save-btn {
+      width: 99%;
+      height: 52px;
+      font-family: 'Roboto' !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px !important;
+      line-height: 160%;
+      /* identical to box height, or 32px */
+      
+      align-items: center !important;
+      text-align: center;
+      float: left;
+      margin-left: 0%;
+      
+      color: #FFFFFF;
+      margin-top: 4%;
+      background-color: #60BC4B;
+      border: 0;
+      border-radius: 0;
+      color: #fff;
+    }
+    
+    .profile-save-btn:hover {
+      border: 2px solid #60BC4B;
+      background-color: #fff;
+      color: #60BC4B;
+      box-shadow: none;
+    
+      outline: none;
+    }
+
+    .profileselecticon{
+      margin-right: 5%;
+    }
+
+    .nodatatext{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      /* identical to box height */
+
+      /* Gray 1 */
+
+      color: #929292 !important;
+    }
+
+    #couponheader{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 4%;
+      margin-left: 2%;
+      /* identical to box height */
+
+      /* Gray 1 */
+
+      color: #333333;
+    }
+
+    .coupondiv{
+      height: 20vh;
+      width:100%;
+      margin-bottom: 10px;
+    }
+
+    .couponoffer{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bold !important;
+      margin-left: 5%;
+      font-size: 24px;
+      line-height: 29px;
+      align-items: center;
+      
+      /* Red */
+      
+      color: #EB5757 !important;
+    }
+    .coupondesc{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      margin-top: 10px;
+      margin-left: -40px;
+      
+      color: #000000;
+    }
+    .couponcode{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bolder;
+      font-size: 12px;
+      line-height: 15px;
+      margin-top: 5px;
+      margin-left: -40px;
+      
+      color: #000000;
+    }
+
+    .couponexpiry{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+
+      margin-top: 5px;
+      /* Gray 2 */
+
+      color: #4F4F4F;
+    }
+
+    .couponinnerdiv{
+      padding:10px;
+      border-left: 1px solid #dadada;
+      border-right: 1px solid #dadada;
+      border-top: 1px solid #dadada;
+    }
+    .innderdiv2{
+      padding:10px;
+      border: 1px solid #dadada;
+    }
+
+    #profilecouponcard{
+      display: none;
+    }
+
+    .defaultprofileselect{
+      color: #60BC4B !important;
+      box-shadow: none;
+      font-weight: bold !important;
+      border-bottom: 1px solid #60BC4B !important;
+      outline: none;
+    }
+
+    .profile-select-btn{
+      width: 70%;
+      height: 10px;
+      font-family: 'Roboto' !important;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px ;
+      line-height: 160%;
+      margin-left: 20%;
+      display: block;
+      cursor: pointer;
+      /* identical to box height, or 32px */
+      
+      align-items: left !important;
+      text-align: left;
+      margin-top: 5%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      color: #777777;
+      background-color:transparent;
+      border: 0;
+      border-bottom: 1px solid #C4C4C4;
+      box-shadow: none;
+      border-radius: 0;
+    }
+
+    .profile-select-btn:hover {
+      color: #60BC4B;
+      box-shadow: none;
+      border-bottom: 1px solid #60BC4B !important;
+      outline: none;
+    }
+
+    .pv-first-row{
+      
+    padding-left: 3% !important;
+    padding-right: 10% !important;
+    }
+
+    .shoppingbtn{
+      display:none;
+    }
+
+    .profilerow{
+        display: flex;
+    }
+
+    .profilemainrow{
+      display: flex;
+    }
+
+    .profilemobile6{
+        width: 50%;
+    }
+
+    .profilemobile4{
+        width: 30%;
+    }
+
+    .profilemobile12{
+        width: 100%;
+    }
+
+    .profilemobile5{
+        padding-top: 4%;
+        width: 45%;
+        display: inline;
+    }
+
+    
+
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+ 
+}
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+
+}

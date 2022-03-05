@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.compo6_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(164, 164, 164, 0.16);
+    margin: 2vw;
+    padding: 3vw;
+    height: 50vw;
+}
+
+.compo6_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 3%;
+}
+
+.compo6_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4vw;
+    line-height: 2.5vw;
+    text-align: center;
+    
+    color: #464646;
+    margin: 0vw;
+}
+
+.compo6card_wrapper2{
+  margin-top: -4.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.compo6card_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compo6card_img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: contain;
+}
+
+.compo6card_img2{
+  width: 20vw;
+  height: 20vw;
+  object-fit: contain;
+}
+
+.compo6card_contentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 14vw;
+    width: 19vw;
+}
+
+.compo6card_heading2{
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 3vw;
+    letter-spacing: -0.035em;
+    
+    margin: 0vw;
+    margin-top: 10%;
+    width: 90%;
+    color: #464646;
+    margin-left: 4%;
+}
+
+.compo6card_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 3vw;
+    letter-spacing: -0.035em;
+    
+    margin: 0vw;
+    width: 90%;
+    color: #464646;
+    margin-left: 4%;
+}
+
+.compo6card_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    color: #8B8B8B;
+    margin-left: 4%;
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+
+  .compo6_wrapper {
+    margin: 4vw 0vw !important;
+  } 
+
+  .compo6card_contentWrapper {
+    justify-content: space-evenly !important;
+    width: 20vw;
+  }
+
+  .compo6card_heading {
+    font-size: 2.3vw;
+  }
+
+  .compo6card_heading2 {
+    font-size: 2.3vw;
+  }
+  
+  .compo6card_text {
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+  }
+
+  .compo6card_img {
+    width: 22vw;
+    height: 22vw;
+    object-fit: contain;
+  }
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+    .compo6_wrapper {
+    margin: 5vw 0vw;
+    height: auto;
+  }
+
+  .compo6_heading {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    margin-bottom: 5vw;
+  }
+
+  .compo6card_img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .compo6card_img2 {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .compo6card_contentWrapper {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .compo6card_wrapper{
+    width: 100%;
+  }
+
+  .compo6card_wrapper2{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .compo6card_heading {
+    font-size: 3vw;
+    line-height: 3vw;
+    width: 45vw;
+    margin: 0;
+  }
+
+  .compo6card_heading2 {
+    font-size: 3vw;
+    line-height: 3vw;
+    width: 45vw;
+    margin: 0;
+  }
+
+  .compo6card_text {
+    font-size: 2.6vw;
+    line-height: 3vw;
+    width: 45vw;
+    margin-left: 0px;
+  }
+
+  .compo6_row {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+  }
+}

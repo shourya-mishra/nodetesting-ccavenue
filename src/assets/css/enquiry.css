@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.enquiry_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.enquiry_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.enquiry_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 5vw auto;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.enquiry_heading1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7em;
+    color: #000000;
+    margin-left: 5%;
+    text-align: left !important;
+    margin-bottom: 1vw;
+}
+
+.enquiry_heading2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: left !important;
+    text-transform: lowercase;
+    color: #000000;
+    margin: 0vw;
+    margin-left: 5%;
+}
+
+
+.meter { 
+    display: none;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    background: #eee5d4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    background-color: #e4c465;
+    border-radius: 10px;
+    animation: progressBar 13s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+    0% { left:0;width: 0; }
+    50% { left:0;width: 100%; }
+    100% {left:100%;width: 0}
+}
+
+
+
+.enquiry_formWrapper{
+    margin: 2vw;
+}
+
+.enquiry_label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    color: #000000;
+    margin: 0.4vw 0vw;
+    text-align: left !important;
+}
+
+.enqyiry_input{
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    height: 2.6vw;
+    width: 100%;
+    margin-bottom: 1vw;
+    outline: none;
+    padding-left: 0.2vw;
+    font-family: Montserrat;
+
+}
+
+.enquiry_widthSmall{
+    width: 75% !important;
+}
+
+.enquiry_widthMedium{
+    width: 15vw !important;
+}
+
+.enquiry_button{
+    background: #E1E1E1;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #000000;
+    border: none;
+    margin: 0vw 5.5vw ;
+    margin-top: 2vw;
+    height: 3.5vw;
+    width: 15vw;
+}

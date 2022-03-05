@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.compo3_wrapper{
+    margin-top: 1%;
+    height: 30vw;
+    margin-bottom: 0%;
+}
+
+.compo3_carousel{
+}
+
+.slider-wrapper{
+    min-height: 22vw;
+}
+
+.compo3_imgWrapper{
+    width: 94vw;
+    margin-left: 3vw;
+    display: flex;
+    cursor: pointer;
+}
+
+.compo3_img{
+    border-radius: 20px !important;
+    width: 100%;
+    margin-left: 2%;
+    object-fit: cover;
+    margin-left: 0px;
+    height: 48vh;
+}
+
+.compo3_img2{
+    border-radius: 20px !important;
+    height: 60vh;
+    width: 100%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+/* ===================================================== */
+
+.carousel-slider{
+    height : 17vw;
+}
+
+.carousel-status{
+    display: none !important;
+}
+
+.thumbs-wrapper{
+    display: none !important;
+}
+
+.bannercarousal .carousel .control-dots{
+    margin: -10vw 0vw;
+}
+
+.dot{
+    width: 15px !important;
+    height: 5px !important;
+    border-radius: 10px !important;
+    background: #C4C4C4 !important;
+    opacity: 0.2 !important;
+    box-shadow: none !important;
+}
+
+.selected{
+    opacity: 1 !important;
+}
+
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 464px) and (max-width : 1024px){
+
+    .compo3_imgWrapper{
+        margin-left: 3vw !important;
+      }
+  
+
+}
+
+/*=====================================================================================*/
+
+@media screen and (min-width : 0px) and (max-width : 464px){
+
+    /* width */
+::-webkit-scrollbar {
+    width: 1px !important;
+    border-radius: 20px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff !important;
+    border-radius: 20px !important;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff !important;
+    border-radius: 20px !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+    .compo3_wrapper {
+        min-height: 40vw;
+    }
+
+    .compo3_img{
+        border-radius: 20px !important;
+        width: 100%;
+        margin-left: 2%;
+        object-fit: cover;
+        margin-left: 0px;
+        height: 20vh;
+    }
+    
+    
+    /* ===================================================== */
+    
+    .carousel-slider{
+        height : 24vw;
+    }
+
+    .compo3_img{
+        border-radius: 5px !important;
+    }
+
+    .bannercarousal .carousel .control-dots{
+        margin: -16vw 0vw;
+    }
+/*
+      .carousel-slider{
+        height : 35vw;
+    } */
+
+    .dot{
+        width: 10px !important;
+    }
+
+}
